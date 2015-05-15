@@ -17,7 +17,7 @@ Package.onUse(function(api) {
     'underscore',
     'reactive-var',
     'tracker', 'deps',
-    'nucleuside:live-update@0.3.0',
+    'nucleuside:live-update@0.3.1',
     'nucleuside:transcompiler@0.0.1',
   ]);
 
