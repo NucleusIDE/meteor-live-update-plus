@@ -1,8 +1,11 @@
 /**
  * Extends LiveUpdate with CSS support and transpiling SASS/LESS and Coffeescript
  */
+
+var _CssUpdate = new CssUpdate();
+
 var cssHandler = function(options) {
-  CssUpdate.update(options.filepath, options.newContent);
+  _CssUpdate.update(options.filepath, options.newContent);
 };
 
 LiveUpdate.addFileHandler('css', cssHandler);
